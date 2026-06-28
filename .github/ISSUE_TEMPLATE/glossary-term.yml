@@ -1,0 +1,27 @@
+name: Glossary term
+description: Propose a new or revised glossary term.
+title: "glossary: "
+labels:
+  - glossary
+  - documentation
+body:
+  - type: input
+    id: term
+    attributes:
+      label: Term
+      description: The term to add or revise.
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition
+      description: Provide the proposed definition and where it is used.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Related terms
+      description: List related terms that should remain consistent.
+

@@ -1,0 +1,31 @@
+- name: documentation
+  color: "0366d6"
+  description: Documentation content, structure, or clarity.
+- name: architecture
+  color: "5319e7"
+  description: Architecture principles, boundaries, diagrams, or trade-offs.
+- name: decision
+  color: "1d76db"
+  description: ADR proposals, decision records, or governance choices.
+- name: glossary
+  color: "0e8a16"
+  description: Terminology additions or consistency work.
+- name: roadmap
+  color: "fbca04"
+  description: Scope, sequencing, milestones, or volume planning.
+- name: security
+  color: "d73a4a"
+  description: Security, privacy, trust boundary, or abuse-resistance work.
+- name: quality
+  color: "c2e0c6"
+  description: Review quality, consistency, completeness, or maintainability.
+- name: good first issue
+  color: "7057ff"
+  description: Well-scoped work suitable for new contributors.
+- name: needs review
+  color: "ededed"
+  description: Ready for maintainer or peer review.
+- name: blocked
+  color: "b60205"
+  description: Cannot proceed until a dependency or decision is resolved.
+
