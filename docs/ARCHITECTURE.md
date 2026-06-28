@@ -1,51 +1,64 @@
-# Architecture Overview
+﻿# Architecture Overview
 
-## Documentation-First Approach
+## Documentation First Philosophy
 
-The handbook defines architecture before implementation. This approach reduces ambiguity by making product intent, system boundaries, terminology, security requirements, and operational constraints explicit before code is written.
+AIFlow OS Engineering Handbook uses a documentation-first architecture. The handbook defines system purpose, domain vocabulary, governance, decision process, diagrams, review workflow, and implementation sequencing before code exists.
 
-## Versioned Handbook
+## Repository Architecture
 
-The handbook is versioned as a durable engineering artifact. Each release should describe what changed, why it changed, and how future implementation work is affected. Versioning applies to governance documents, volumes, ADRs, diagrams, and templates.
+The repository is organized as an engineering knowledge system: root files provide project orientation and community governance; `docs/` contains project-wide governance, architecture, lifecycle, standards, roadmap, decisions, and glossary; `volumes/` contains the book content; `adr/` contains Architecture Decision Records; `diagrams/` contains diagram sources; `templates/` contains reusable document structures; `prompts/` contains AI-assisted authoring and review prompts; `.github/` contains collaboration templates.
 
-## Relationship Between Handbook and Implementation
+See [../diagrams/repository-structure.mmd](../diagrams/repository-structure.mmd).
 
-The handbook is the architectural contract for future implementation. Implementation work should reference approved chapters, standards, and ADRs. When implementation pressure reveals missing or incorrect documentation, the handbook must be updated before the undocumented behavior becomes precedent.
+## Future Platform Relationship
 
-## Future Codebase Alignment
+The future platform will include workflow authoring, graph execution, scheduling, workers, integrations, plugins, AI runtime, MCP mediation, enterprise governance, cloud operations, and marketplace distribution. The handbook describes these systems before they are implemented.
 
-Future code should align with:
-
-- Roadmap volume boundaries.
-- Glossary terms and domain language.
-- ADR-approved architectural decisions.
-- Security, performance, and documentation standards.
-- Diagrams and service boundary definitions.
+See [../diagrams/future-platform-relationship.mmd](../diagrams/future-platform-relationship.mmd).
 
 ## Architecture Governance
 
-Architecture governance is managed through:
+Architecture governance is enforced through the constitution, roadmap, ADRs, standards, review process, glossary, diagrams, changelog, and master context. Material decisions require ADRs.
 
-- Constitution principles.
-- ADRs for material decisions.
-- Roadmap sequencing.
-- Master context updates.
-- Changelog entries.
-- Pull request review.
+## Versioning Strategy
 
-## Initial System View
+The handbook uses semantic versioning. Every release should explain what changed and whether the change affects governance, roadmap, architecture, standards, diagrams, glossary, or future implementation.
 
-The future AIFlow OS platform is expected to include:
+## Folder Organization
 
-- A workflow authoring surface.
-- A workflow execution engine.
-- Scheduler and worker services.
-- Integration and plugin runtime.
-- AI runtime for prompts, agents, tools, memory, and retrieval.
-- MCP mediation layer.
-- Enterprise administration and audit controls.
-- Cloud deployment and operations model.
-- Marketplace for plugins, templates, and extensions.
+- `docs/` for repository-wide rules and architectural context.
+- `volumes/` for book chapters and parts.
+- `adr/` for decisions.
+- `diagrams/` for architecture and workflow views.
+- `templates/` for repeatable structures.
+- `prompts/` for AI workflow guidance.
+- `assets/` for supporting publication material.
+- `examples/` for future reference examples.
 
-This document intentionally does not prescribe implementation technologies in Sprint 1. Those decisions require future ADRs.
+## Documentation Lifecycle
 
+Documents move through planning, writing, review, approval, publishing, maintenance, deprecation, and archiving. See [docs/DOCUMENTATION_LIFECYCLE.md](DOCUMENTATION_LIFECYCLE.md) and [../diagrams/documentation-lifecycle.mmd](../diagrams/documentation-lifecycle.mmd).
+
+## Review Workflow
+
+Review includes architecture, technical, editorial, consistency, quality, final approval, and publishing approval. See [docs/REVIEW_PROCESS.md](REVIEW_PROCESS.md) and [../diagrams/documentation-review-workflow.mmd](../diagrams/documentation-review-workflow.mmd).
+
+## Publishing Workflow
+
+Publishing requires approved scope, reviewed content, updated version metadata, synchronized changelog and master context, validated diagrams, and release approval. See [../diagrams/publishing-workflow.mmd](../diagrams/publishing-workflow.mmd).
+
+## Future Codebase Relationship
+
+Future code must follow approved handbook architecture. If implementation reveals a missing or incorrect architecture assumption, documentation must be updated through review before the behavior becomes precedent.
+
+## How Handbook Drives Implementation
+
+Implementation should trace to roadmap volume and exit criteria, approved chapters and diagrams, ADRs, standards, glossary terms, and review process requirements.
+
+## Diagram Strategy
+
+Mermaid is the default diagram format in Sprint 002. Diagrams should be source-controlled, referenced by related documents, and reviewed alongside text. C4, sequence, ERD, and deployment-specific diagrams should use their dedicated folders when the view requires them.
+
+## Cross Referencing Strategy
+
+Documents should use relative links to connect governance, roadmap, standards, diagrams, ADRs, and volume content. Cross-references must be updated when files move, names change, or decisions are superseded.

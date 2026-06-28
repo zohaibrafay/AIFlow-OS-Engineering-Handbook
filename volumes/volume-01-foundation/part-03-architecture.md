@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 03: Architecture
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Frame the architecture approach that future platform volumes will refine.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Software architects, system designers, maintainers, and reviewers.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Architecture principles; boundary model; ADR relationship; diagram expectations.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[../../docs/ARCHITECTURE.md](../../docs/ARCHITECTURE.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../diagrams/](../../diagrams/)
 
 ## Completion Criteria
 

@@ -1,0 +1,35 @@
+﻿name: ADR proposal
+description: Propose a material architecture, governance, or documentation decision.
+title: "adr: "
+labels:
+  - architecture
+  - decision
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Describe the forces, constraints, and requirements behind the proposed decision.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe credible alternatives and their trade-offs.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Proposed decision
+      description: State the decision clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Describe benefits, risks, costs, and follow-up work.
+    validations:
+      required: true

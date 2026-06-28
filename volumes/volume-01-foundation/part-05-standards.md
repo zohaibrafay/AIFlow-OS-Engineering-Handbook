@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 05: Standards
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Apply repository documentation standards to Volume 1 and future authoring work.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Authors, editors, reviewers, and AI agents.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Markdown standards; naming; references; glossary usage; review checklists.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[../../docs/STANDARDS.md](../../docs/STANDARDS.md), [../../docs/GLOSSARY.md](../../docs/GLOSSARY.md)
 
 ## Completion Criteria
 

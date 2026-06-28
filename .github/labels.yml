@@ -1,4 +1,4 @@
-- name: documentation
+﻿- name: documentation
   color: "0366d6"
   description: Documentation content, structure, or clarity.
 - name: architecture
@@ -13,12 +13,21 @@
 - name: roadmap
   color: "fbca04"
   description: Scope, sequencing, milestones, or volume planning.
+- name: lifecycle
+  color: "bfdadc"
+  description: Documentation lifecycle, maintenance, publishing, deprecation, or archiving.
+- name: review
+  color: "c5def5"
+  description: Structured review process or approval workflow.
 - name: security
   color: "d73a4a"
   description: Security, privacy, trust boundary, or abuse-resistance work.
 - name: quality
   color: "c2e0c6"
   description: Review quality, consistency, completeness, or maintainability.
+- name: bug
+  color: "d73a4a"
+  description: Incorrect documentation, broken links, inconsistent terms, or diagram mismatch.
 - name: good first issue
   color: "7057ff"
   description: Well-scoped work suitable for new contributors.
@@ -28,4 +37,3 @@
 - name: blocked
   color: "b60205"
   description: Cannot proceed until a dependency or decision is resolved.
-

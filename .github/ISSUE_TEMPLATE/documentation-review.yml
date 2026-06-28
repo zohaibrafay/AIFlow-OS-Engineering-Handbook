@@ -1,0 +1,29 @@
+﻿name: Documentation review
+description: Request a structured review of handbook content.
+title: "review: "
+labels:
+  - needs review
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Review scope
+      description: List files, diagrams, ADRs, or chapters to review.
+    validations:
+      required: true
+  - type: checkboxes
+    id: review_types
+    attributes:
+      label: Review types
+      options:
+        - label: Architecture review
+        - label: Technical review
+        - label: Editorial review
+        - label: Consistency review
+        - label: Quality review
+        - label: Publishing approval
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add context, risks, or deadline information.

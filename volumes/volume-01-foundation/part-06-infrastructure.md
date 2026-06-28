@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 06: Infrastructure
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Introduce infrastructure concerns that later cloud and enterprise volumes will formalize.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Platform architects, operations engineers, and security reviewers.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Infrastructure framing; deployment concerns; observability themes; reliability dependencies.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[../../docs/ROADMAP.md](../../docs/ROADMAP.md), [../../diagrams/deployment/](../../diagrams/deployment/)
 
 ## Completion Criteria
 

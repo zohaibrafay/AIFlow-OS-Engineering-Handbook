@@ -1,0 +1,17 @@
+﻿flowchart TD
+  Handbook[Engineering Handbook] --> Requirements[Requirements]
+  Handbook --> Architecture[Architecture]
+  Handbook --> ADRs[ADRs]
+  Handbook --> Standards[Standards]
+  Requirements --> Platform[Future AIFlow OS Platform]
+  Architecture --> Platform
+  ADRs --> Platform
+  Standards --> Platform
+  Platform --> Builder[Visual Builder]
+  Platform --> Engine[Workflow Engine]
+  Platform --> Plugins[Plugin SDK]
+  Platform --> AIRuntime[AI Runtime]
+  Platform --> MCP[MCP Platform]
+  Platform --> Enterprise[Enterprise Controls]
+  Platform --> Cloud[Cloud Operations]
+  Platform --> Marketplace[Marketplace]

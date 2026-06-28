@@ -1,0 +1,8 @@
+﻿flowchart TD
+  Scope[Confirm Release Scope] --> Content[Review Content]
+  Content --> Diagrams[Validate Diagrams]
+  Diagrams --> Metadata[Update Version Metadata]
+  Metadata --> Changelog[Update Changelog]
+  Changelog --> Context[Update Master Context]
+  Context --> Approval[Publishing Approval]
+  Approval --> Release[Publish Version]

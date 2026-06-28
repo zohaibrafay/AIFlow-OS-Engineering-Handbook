@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 02: Engineering
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Establish engineering principles for correctness, reliability, security, performance, operability, and maintainability.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Engineering leads, architecture reviewers, future implementers, and AI agents.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Engineering philosophy; quality model; review expectations; operational principles.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/STANDARDS.md](../../docs/STANDARDS.md)
 
 ## Completion Criteria
 

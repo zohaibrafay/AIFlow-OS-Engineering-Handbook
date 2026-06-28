@@ -1,0 +1,7 @@
+﻿flowchart TD
+  Governance[Governance] --> Foundation[Foundation Volumes]
+  Foundation --> Architecture[Architecture Volumes]
+  Architecture --> ImplementationReadiness[Implementation Readiness]
+  ImplementationReadiness --> Release[Versioned Release]
+  Release --> Review[Ongoing Review]
+  Review --> Governance

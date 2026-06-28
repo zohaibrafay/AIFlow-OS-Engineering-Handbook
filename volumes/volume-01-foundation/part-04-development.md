@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 04: Development
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Define how future development planning will be derived from the handbook without starting implementation prematurely.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Future implementation teams, maintainers, and AI coding agents.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Development readiness criteria; implementation boundary rules; traceability expectations.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[../../docs/ROADMAP.md](../../docs/ROADMAP.md), [../../AGENTS.md](../../AGENTS.md)
 
 ## Completion Criteria
 

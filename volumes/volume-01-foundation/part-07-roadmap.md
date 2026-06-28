@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 07: Roadmap
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Connect Volume 1 outcomes to the ten-volume handbook roadmap and publishing milestones.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Maintainers, release planners, contributors, and reviewers.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Volume sequencing; dependencies; exit criteria; release relationship.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[../../docs/ROADMAP.md](../../docs/ROADMAP.md), [../../CHANGELOG.md](../../CHANGELOG.md)
 
 ## Completion Criteria
 

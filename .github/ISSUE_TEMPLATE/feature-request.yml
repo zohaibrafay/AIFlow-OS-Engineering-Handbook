@@ -1,0 +1,25 @@
+﻿name: Handbook feature request
+description: Propose a new handbook capability, section, diagram, template, or workflow.
+title: "feature: "
+labels:
+  - roadmap
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Explain the documentation or governance need.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the requested addition and affected areas.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: List roadmap, ADR, glossary, or diagram dependencies.

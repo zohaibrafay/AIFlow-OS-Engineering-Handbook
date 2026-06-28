@@ -1,8 +1,8 @@
-﻿# Part 00: Constitution
+﻿# Part 01: Product
 
 ## Purpose
 
-Connect Volume 1 to handbook governance, project principles, decision rules, and the definition of done.
+Define the product foundation for AIFlow OS, including vision, audience, requirements, market context, competitors, and feature taxonomy.
 
 ## Objectives
 
@@ -13,7 +13,7 @@ Connect Volume 1 to handbook governance, project principles, decision rules, and
 
 ## Audience
 
-Maintainers, reviewers, contributors, and AI agents.
+Product architects, technical writers, platform engineers, and reviewers.
 
 ## Learning Outcomes
 
@@ -25,13 +25,13 @@ This part currently defines structure only. Full chapter content will be authore
 
 ## Deliverables
 
-- Constitution alignment; governance review checklist; decision thresholds.
+- Project vision; product requirements; market analysis; competitor analysis; feature matrix.
 - Review criteria for future chapter expansion.
 - Cross-references to governing documents.
 
 ## Dependencies
 
-[../../docs/CONSTITUTION.md](../../docs/CONSTITUTION.md), [../../docs/DECISIONS.md](../../docs/DECISIONS.md), [../../docs/REVIEW_PROCESS.md](../../docs/REVIEW_PROCESS.md)
+[chapter-01-project-vision.md](chapter-01-project-vision.md), [chapter-02-product-requirements.md](chapter-02-product-requirements.md), [chapter-03-market-analysis.md](chapter-03-market-analysis.md), [chapter-04-competitor-analysis.md](chapter-04-competitor-analysis.md), [chapter-05-feature-matrix.md](chapter-05-feature-matrix.md)
 
 ## Completion Criteria
 

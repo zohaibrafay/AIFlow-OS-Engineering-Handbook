@@ -1,0 +1,25 @@
+﻿name: Documentation bug report
+description: Report an incorrect statement, broken link, inconsistent term, or diagram mismatch.
+title: "bug: "
+labels:
+  - quality
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: Describe the problem and why it is incorrect or harmful.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link or list the affected file and section.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Provide the expected correction if known.
